@@ -9,6 +9,7 @@ const Projects = () => {
       sectionName={"_selected publications"}
       id={"selected_publications"}
       bgColor="bg-white"
+      textColor="text-black" // Set text color to black
     >
       {PROJECTS.map((project, index) => (
         <ProjectCard

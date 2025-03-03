@@ -15,7 +15,8 @@ module.exports = {
       primary: "#00152e",
       secondary: "#002147",
       sky: colors.sky,
-      darkblue: "#001326"
+      darkblue: "#001326",
+      black: '#000000'
     },
   },
   plugins: [require("flowbite/plugin")],
