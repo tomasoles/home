@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.d9f07750.css",
-    "main.js": "/home/static/js/main.853415a6.js",
+    "main.css": "/home/static/css/main.aeced668.css",
+    "main.js": "/home/static/js/main.4d9313da.js",
     "static/js/453.4f97e6c8.chunk.js": "/home/static/js/453.4f97e6c8.chunk.js",
     "static/media/profile.png": "/home/static/media/profile.f33f9e2b20cc0769a0e1.png",
     "static/media/presentation_dissertation.pdf": "/home/static/media/presentation_dissertation.4e9cf0891b4948fda3fc.pdf",
@@ -12,12 +12,12 @@
     "static/media/CV_TomasOles.pdf": "/home/static/media/CV_TomasOles.29f03d4d93c20d55f40c.pdf",
     "static/media/NHF-clean-white.png": "/home/static/media/NHF-clean-white.dda0b156afe656a9d23c.png",
     "index.html": "/home/index.html",
-    "main.d9f07750.css.map": "/home/static/css/main.d9f07750.css.map",
-    "main.853415a6.js.map": "/home/static/js/main.853415a6.js.map",
+    "main.aeced668.css.map": "/home/static/css/main.aeced668.css.map",
+    "main.4d9313da.js.map": "/home/static/js/main.4d9313da.js.map",
     "453.4f97e6c8.chunk.js.map": "/home/static/js/453.4f97e6c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9f07750.css",
-    "static/js/main.853415a6.js"
+    "static/css/main.aeced668.css",
+    "static/js/main.4d9313da.js"
   ]
 }
