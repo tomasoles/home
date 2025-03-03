@@ -32,7 +32,7 @@ export const PROJECTS = [
     {
         name: 'Superstar Firms and Labor Share Decline: The Role of Digitalization in France, Germany, Italy, and Spain',
         description: "This paper examines the interaction between market concentration, firm size, and labor outcomes through the superstar firms hypothesis. Using firm-level data from CompNet and digitalization indicators from EU-KLEMS, the analysis finds that labor share negatively correlates with total factor productivity, supporting the idea that high-productivity superstar firms allocate less to labor. At the industry level, market concentration is positively associated with productivity and wages, but negatively with labor share. Firm size within industries also shows a positive link to productivity and wages, but a negative link to labor share. While digital investments boost productivity and wages among larger firms, they do not significantly slow labor share declines. The findings suggest that digitalization benefits larger firms, while labor share continues to decline as productivity and concentration rise.",
-        url: 'https://nhf.euba.sk/www_write/files/katedry/khp/working-papers/dep_wp029.pdf',
+        url: 'https://www.sav.sk/?lang=en&doc=journal-list&part=article_response_page&journal_article_no=36940',
         previewImage: superstarProject,
     },
     
