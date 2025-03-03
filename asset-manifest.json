@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.d9f07750.css",
+    "main.js": "/home/static/js/main.853415a6.js",
+    "static/js/453.4f97e6c8.chunk.js": "/home/static/js/453.4f97e6c8.chunk.js",
+    "static/media/profile.png": "/home/static/media/profile.f33f9e2b20cc0769a0e1.png",
+    "static/media/presentation_dissertation.pdf": "/home/static/media/presentation_dissertation.4e9cf0891b4948fda3fc.pdf",
+    "static/media/presentation_aut_aug.pdf": "/home/static/media/presentation_aut_aug.72da2958a015a8e71d4b.pdf",
+    "static/media/ai_exposure_ind_occ_page-0001.jpg": "/home/static/media/ai_exposure_ind_occ_page-0001.21bae9ba5992b8972002.jpg",
+    "static/media/superstar.jpg": "/home/static/media/superstar.1676791233626013bb57.jpg",
+    "static/media/clubs.png": "/home/static/media/clubs.51e413de167d85ed67d8.png",
+    "static/media/CV_TomasOles.pdf": "/home/static/media/CV_TomasOles.29f03d4d93c20d55f40c.pdf",
+    "static/media/NHF-clean-white.png": "/home/static/media/NHF-clean-white.dda0b156afe656a9d23c.png",
+    "index.html": "/home/index.html",
+    "main.d9f07750.css.map": "/home/static/css/main.d9f07750.css.map",
+    "main.853415a6.js.map": "/home/static/js/main.853415a6.js.map",
+    "453.4f97e6c8.chunk.js.map": "/home/static/js/453.4f97e6c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9f07750.css",
+    "static/js/main.853415a6.js"
+  ]
+}
