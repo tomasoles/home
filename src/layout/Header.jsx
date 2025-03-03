@@ -19,31 +19,31 @@ const Header = () => {
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />
-      <Navbar.Collapse>
+      <Navbar.Collapse className="bg-darkblue">
         <Navbar.Link
           href="#hello"
-          className={`${activeLink === "#hello" ? "border-b-2 border-white" : null} text-white md:hover:text-white-600 hover:border-b-2 hover:border-white`}
+          className={`${activeLink === "#hello" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
           onClick={() => handleLinkClick("#hello")}
         >
           _hello
         </Navbar.Link>
         <Navbar.Link
           href="#selected_publications"
-          className={`${activeLink === "#selected_publications" ? "border-b-2 border-white" : null} text-white hover:border-b-2 hover:border-white md:hover:text-white-600`}
+          className={`${activeLink === "#selected_publications" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
           onClick={() => handleLinkClick("#selected_publications")}
         >
           _selected publications
-          </Navbar.Link>
+        </Navbar.Link>
         <Navbar.Link
           href="#talks"
-          className={`${activeLink === "#talks" ? "border-b-2 border-white" : null} text-white hover:border-b-2 hover:border-white md:hover:text-white-600`}
+          className={`${activeLink === "#talks" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
           onClick={() => handleLinkClick("#talks")}
         >
-          _talks 
+          _talks
         </Navbar.Link>
         <Navbar.Link
           href="#contact"
-          className={`${activeLink === "#contact" ? "border-b-2 border-white" : null} text-white hover:border-b-2 hover:border-white md:hover:text-white-600`}
+          className={`${activeLink === "#contact" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
           onClick={() => handleLinkClick("#contact")}
         >
           _contact
