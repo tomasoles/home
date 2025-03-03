@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* customize the defaults in tailwind*/
+@layer base {
+  html, body {
+    font-family: "Fira Code", system-ui, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    @apply text-white;
+  }
+
+}
