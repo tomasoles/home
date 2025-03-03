@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/profile.png";
+import HeroImg from "../assets/profile.webp";
 import SectionContainer from "../components/SectionContainer";
 import pdfFile from "../assets/CV_TomasOles.pdf";
 import { Button } from "flowbite-react";
