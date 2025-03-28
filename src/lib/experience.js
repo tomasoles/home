@@ -21,7 +21,7 @@ export const EXPERIENCE = [
     url: "https://nhf.euba.sk/katedry/katedra-hospodarskej-politiky/clenovia-katedry/oles-tomas",
     description: [
       "Researching topics in the field of economic growth, inequalities, technological change and natural language processing",
-      "Teaching courses and supervising students in the field of empirical economics, data science and econometrics",
+      "Teaching courses and supervising students in the field of empirical labor and growth economics, data science and econometrics",
     ],
   },
 
