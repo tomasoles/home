@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/home/static/css/main.ce445d08.css",
-    "main.js": "/home/static/js/main.62ca2048.js",
+    "main.js": "/home/static/js/main.c0fd9a33.js",
     "static/js/453.4f97e6c8.chunk.js": "/home/static/js/453.4f97e6c8.chunk.js",
     "static/media/presentation_Cedefop.pdf": "/home/static/media/presentation_Cedefop.da90752a8cc62a5eb3e3.pdf",
     "static/media/presentation_dissertation.pdf": "/home/static/media/presentation_dissertation.4e9cf0891b4948fda3fc.pdf",
@@ -10,15 +10,15 @@
     "static/media/ai_exposure_ind_occ_page-0001.jpg": "/home/static/media/ai_exposure_ind_occ_page-0001.21bae9ba5992b8972002.jpg",
     "static/media/superstar.jpg": "/home/static/media/superstar.1676791233626013bb57.jpg",
     "static/media/clubs.png": "/home/static/media/clubs.51e413de167d85ed67d8.png",
-    "static/media/CV_TomasOles.pdf": "/home/static/media/CV_TomasOles.b6a637d54a0db78de321.pdf",
+    "static/media/CV_TomasOles.pdf": "/home/static/media/CV_TomasOles.88881fc9e7d277c1aaeb.pdf",
     "static/media/NHF-clean-white.png": "/home/static/media/NHF-clean-white.dda0b156afe656a9d23c.png",
     "index.html": "/home/index.html",
     "main.ce445d08.css.map": "/home/static/css/main.ce445d08.css.map",
-    "main.62ca2048.js.map": "/home/static/js/main.62ca2048.js.map",
+    "main.c0fd9a33.js.map": "/home/static/js/main.c0fd9a33.js.map",
     "453.4f97e6c8.chunk.js.map": "/home/static/js/453.4f97e6c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce445d08.css",
-    "static/js/main.62ca2048.js"
+    "static/js/main.c0fd9a33.js"
   ]
 }
