@@ -26,7 +26,7 @@ export const PROJECTS = [
     {
         name: 'Impact of Robots and Artificial Intelligence on Labor and Skill Demand: Evidence from the UK (with Martin Lábaj and Gabriel Procházka)',
         description: "Over the past four decades, automation has replaced routine tasks performed by medium-skilled workers, contributing to labor market polarization. With the rise of artificial intelligence, this trend may now extend to non-routine tasks performed by high-skilled workers. Using textual analysis of patent descriptions, we construct novel occupational exposures to robot and AI technologies to analyze changes in labor and skill demand in the UK over the last decade. We find that middle-income workers are primarily exposed to robots, while AI exposure increases across income percentiles. Robot exposure is strongest among low-education workers, while AI affects mostly college graduates. Robot automation reduces demand for low-skilled workers, while AI shifts demand away from high-skilled workers. Joint estimation shows robot automation increases demand for skilled workers, whereas AI weakly decreases it. These findings suggest significant labor market shifts with implications for wage inequality and the future of work.",
-        url: 'https://nhf.euba.sk/www_write/files/katedry/khp/working-papers/dep_wp029.pdf',
+        url: 'https://link.springer.com/article/10.1007/s40821-025-00314-w',
         previewImage: aiProject,
     },
     {
