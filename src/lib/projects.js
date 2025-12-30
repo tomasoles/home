@@ -9,7 +9,7 @@
 
 
 /** @type {Object[]} */
-
+import ojvProject from "../assets/project preview images/exposure_skills_with_controls.jpg"
 import clubsProject from "../assets/project preview images/clubs.png"
 import aiProject from "../assets/project preview images/ai_exposure_ind_occ_page-0001.jpg"
 import superstarProject from "../assets/project preview images/superstar.jpg"
@@ -17,6 +17,12 @@ import superstarProject from "../assets/project preview images/superstar.jpg"
 
 
 export const PROJECTS = [
+     {
+        name: 'In-Demand Skills: A Shield Against Automation - Evidence from Online Job Vacancies',
+        description: 'This paper studies how in-demand skills, advertised wages, and occupational exposure to automation co-evolve in Slovakia’s online labor market, using near-universe vacancy data from 2022. Skills are extracted from unstructured text and grouped into fifteen cognitive, socio-emotional, and manual categories that explain substantial wage variation. Automation risk is gauged using a novel Europe-specific index of exposure to AI/ML, software, and robotics, constructed by matching patent text to task-level occupational descriptions. The results show a clear hump shaped relationship between firms’ technology exposure and conditional skill demand: vacancies at AI- and software-exposed firms list more skills, robotics-exposed firms list fewer, and across technologies skill demand peaks at intermediate exposure levels. Skill bundles emphasizing abstract and manual capabilities—such as management, software-specific, financial, and coordination skills—are associated with lower exposure, while routine cognitive and socio-emotional skills align with higher exposure, indicating complementarity. Average treatment effect estimates reinforce these patterns, suggesting that abstract and manual skills act as a shield against automation, whereas routine and socio-emotional skills remain concentrated in highly exposed occupations.',
+        url: 'https://link.springer.com/journal/12651',
+        previewImage: ojvProject,
+    },
     {
         name: 'Impact of Cohesion Funds on Convergence Club\'s Economic Growth (with Martin Hudcovský)',
         description: 'This paper estimates the impact of European Structural and Investment Funds (ESIF) on economic growth across European regions, based on the convergence club hypothesis. Using the Phillips and Sul test, we classify regions into three convergence clubs: capital cities and metropolitan areas, core countries, and the periphery. We find a persistent core-periphery pattern in output per capita, with capital cities and metropolitan areas converging almost four times faster. Growth regressions show that ESIF expenditures-to-GDP positively impact short-run growth in the core and periphery clubs, with a stronger effect in the periphery. These results remain robust when adjusting for ESIF expenditures-to-population.',
