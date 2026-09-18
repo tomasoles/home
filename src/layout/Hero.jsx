@@ -1,13 +1,12 @@
 import React from "react";
 import HeroImg from "../assets/profile.webp";
 import SectionContainer from "../components/SectionContainer";
-import pdfFile from "../assets/CV_TomasOles.pdf";
 import { Button } from "flowbite-react";
-import { pdfCVFilename } from "../constants";
+import { cvPageUrl } from "../constants";
 import { githubLink } from "../constants";
-import { BiDownload } from "react-icons/bi";
+import { BiLinkExternal } from "react-icons/bi";
 import "aos/dist/aos.css";
-import TypingEffect from "react-typing-effect";
+import TypingEffect from "../components/TypingEffect";
 
 const Hero = () => {
   return (
@@ -22,7 +21,6 @@ const Hero = () => {
               speed={100}
               eraseDelay={1500}
               eraseSpeed={100}
-              cursorRenderer={(cursor) => <span>{cursor}</span>}
             />
           </div>
           
@@ -41,10 +39,10 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center my-3 md:justify-start">
-            <a href={pdfFile} download={pdfCVFilename}>
+            <a href={cvPageUrl} target="_blank" rel="noopener noreferrer">
               <Button className="bg-secondary enabled:hover:bg-sky-900" pill>
-                Download CV
-                <BiDownload className="ml-2"></BiDownload>
+                View CV
+                <BiLinkExternal className="ml-2"></BiLinkExternal>
               </Button>
             </a>
           </div>

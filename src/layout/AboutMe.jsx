@@ -17,7 +17,7 @@ const AboutMe = () => {
           <h1 className="font-bold text-center tracking-tighter text-sm md:text-lg md:text-left">
           </h1>
           <p className="text-wrap text-sm font-light md:text-base">
-          I am an assistant professor at the University of Economics in Bratislava,
+          I am an assistant professor at the Bratislava University of Economics and Business,
            researching the impact of automation and new technologies on the labor market, 
            with a focus on wage inequality, skill demand, and economic growth. 
            My previous work explored business cycle synchronization and economic convergence in the EU.

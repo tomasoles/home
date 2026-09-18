@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tomáš Oleš — Curriculum Vitae</title>
+<meta name="description" content="Curriculum vitae of Tomáš Oleš, Assistant Professor of Economics at the Bratislava University of Economics and Business. Research on automation, skill demand, wage inequality and growth." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink:        #1a1a1a;
+    --ink-soft:   #4a4a4a;
+    --ink-faint:  #767676;
+    --rule:       #cfcfcf;
+    --rule-heavy: #1a1a1a;
+    --paper:      #ffffff;
+    --backdrop:   #e8e6e1;
+    --accent:     #20344a;
+    --sheet-w:    210mm;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    margin: 0;
+    padding: 30px 16px 60px;
+    background: var(--backdrop);
+    color: var(--ink);
+    font-family: "EB Garamond", Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.45;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* ---------- toolbar ---------- */
+  .toolbar {
+    max-width: var(--sheet-w);
+    margin: 0 auto 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Source Sans 3", system-ui, sans-serif;
+  }
+  .toolbar a.home { font-size: 14px; color: var(--ink-soft); text-decoration: none; }
+  .toolbar a.home:hover { color: var(--ink); text-decoration: underline; }
+  .actions { display: inline-flex; gap: 8px; }
+  .btn {
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--ink);
+    background: transparent;
+    border: 1px solid #b6b2aa;
+    border-radius: 3px;
+    padding: 6px 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+  }
+  .btn:hover { background: rgba(0,0,0,.05); border-color: var(--ink-faint); }
+
+  /* ---------- sheet ---------- */
+  .sheet {
+    max-width: var(--sheet-w);
+    margin: 0 auto;
+    background: var(--paper);
+    box-shadow: 0 2px 18px rgba(0,0,0,.14);
+    padding: 20mm 18mm 16mm;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: start;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid var(--rule-heavy);
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.1;
+    letter-spacing: .01em;
+    margin: 0 0 3px;
+  }
+  .role { margin: 0; font-size: 17px; font-style: italic; color: var(--ink-soft); }
+  .affil { margin: 2px 0 10px; font-size: 16px; color: var(--ink-soft); max-width: 62ch; }
+
+  .contact {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 13.5px;
+    color: var(--ink-soft);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 10px;
+  }
+  .contact li + li::before { content: "·"; margin-right: 10px; color: var(--ink-faint); }
+  .contact a { color: var(--accent); text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+
+  .portrait {
+    width: 104px;
+    height: 128px;
+    object-fit: cover;
+    object-position: 50% 32%;
+    border: 1px solid var(--rule);
+  }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 17px; break-inside: auto; }
+
+  h2 {
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 7px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--rule);
+    break-after: avoid;
+  }
+
+  /* date gutter + content */
+  .row {
+    display: grid;
+    grid-template-columns: 26mm minmax(0, 1fr);
+    gap: 0 10px;
+    margin-bottom: 9px;
+    break-inside: avoid;
+  }
+  .row:last-child { margin-bottom: 0; }
+  .when {
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    padding-top: 3px;
+    white-space: nowrap;
+  }
+  .what .title { font-weight: 600; }
+  .what .sub { color: var(--ink-soft); }
+  .what .note { color: var(--ink-soft); font-style: italic; font-size: 16px; }
+  .what ul { margin: 3px 0 0; padding-left: 18px; }
+  .what li { color: var(--ink-soft); margin-bottom: 1px; }
+
+  p { margin: 0 0 7px; }
+  p:last-child { margin-bottom: 0; }
+
+  /* ---------- publications ---------- */
+  ol.pubs { margin: 0; padding-left: 20px; }
+  ol.pubs > li { margin-bottom: 8px; padding-left: 3px; break-inside: avoid; }
+  ol.pubs > li::marker { color: var(--ink-faint); font-size: 15px; }
+  .pubs .title { font-weight: 600; }
+  .pubs .cite { color: var(--ink-soft); }
+  .pubs .cite em { font-style: italic; }
+  .doi {
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 12.5px;
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .doi:hover { text-decoration: underline; }
+  .status { font-style: italic; color: var(--ink-soft); }
+
+  /* ---------- compact definition rows ---------- */
+  .facts { margin: 0; }
+  .facts .row { margin-bottom: 4px; }
+  .facts .when { white-space: normal; }
+
+  /* ---------- signature ---------- */
+  .signoff {
+    margin-top: 20px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 18px;
+    break-inside: avoid;
+  }
+  .signoff .date {
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+  .signoff img { width: 132px; height: auto; }
+
+  .footnote {
+    max-width: var(--sheet-w);
+    margin: 16px auto 0;
+    font-family: "Source Sans 3", system-ui, sans-serif;
+    font-size: 12px;
+    color: var(--ink-faint);
+    text-align: center;
+  }
+
+  /* ---------- responsive ---------- */
+  @media screen and (max-width: 720px) {
+    body { padding: 18px 10px 40px; font-size: 16px; }
+    .sheet { padding: 22px 18px 18px; }
+    .masthead { grid-template-columns: 1fr; gap: 14px; }
+    .masthead .intro { order: 2; }
+    h1 { font-size: 28px; }
+    .row { grid-template-columns: 1fr; }
+    .when { padding-top: 0; font-size: 12px; order: 2; }
+    .signoff { flex-direction: column-reverse; align-items: flex-start; }
+  }
+
+  /* ---------- print ---------- */
+  @page { size: A4; margin: 14mm 15mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; font-size: 10.2pt; line-height: 1.34; }
+    .toolbar, .footnote { display: none !important; }
+    .sheet { max-width: none; box-shadow: none; padding: 0; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 8.4pt; margin-bottom: 1.8mm; }
+    .role { font-size: 10.6pt; }
+    .affil { font-size: 10pt; margin-bottom: 2mm; }
+    .contact { font-size: 8.6pt; }
+    .when { font-size: 8.4pt; }
+    .what .note, .facts .what { font-size: 9.8pt; }
+    .doi { font-size: 8.4pt; }
+    .portrait { width: 24mm; height: 30mm; }
+    section { margin-top: 4mm; }
+    .row { margin-bottom: 2.2mm; }
+    ol.pubs > li { margin-bottom: 2mm; }
+    a { color: var(--ink) !important; }
+    .signoff { margin-top: 6mm; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar">
+  <a class="home" href="../">&larr; back to tomasoles.github.io/home</a>
+  <span class="actions">
+    <a class="btn" href="CV_TomasOles.pdf" download>
+      <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" fill="currentColor"><path d="M7.25 1h1.5v7.19l2.22-2.22 1.06 1.06L8 11.06 3.97 7.03l1.06-1.06 2.22 2.22V1zM2 12.5h12V14H2v-1.5z"/></svg>
+      Download PDF
+    </a>
+    <button class="btn" onclick="window.print()">
+      <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" fill="currentColor"><path d="M5 1h6v3H5V1zM3.5 5h9A1.5 1.5 0 0114 6.5v4a1.5 1.5 0 01-1.5 1.5H12v3H4v-3h-.5A1.5 1.5 0 012 10.5v-4A1.5 1.5 0 013.5 5zm1.5 6h6v3H5v-3z"/></svg>
+      Print
+    </button>
+  </span>
+</div>
+
+<main class="sheet">
+
+  <header class="masthead">
+    <div class="intro">
+      <h1>Tomáš Oleš</h1>
+      <p class="role">Assistant Professor of Economics</p>
+      <p class="affil">Department of Economic Policy, Faculty of Economics and Finance<br />Bratislava University of Economics and Business, Slovakia</p>
+      <ul class="contact">
+        <li><a href="mailto:tomas.oles@euba.sk">tomas.oles@euba.sk</a></li>
+        <li><a href="https://tomasoles.github.io/home/" target="_blank" rel="noopener">tomasoles.github.io/home</a></li>
+        <li><a href="https://scholar.google.com/citations?user=KwhWW0QAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://github.com/tomasoles" target="_blank" rel="noopener">github.com/tomasoles</a></li>
+      </ul>
+    </div>
+    <img class="portrait" src="portrait.jpg" alt="Portrait of Tomáš Oleš" />
+  </header>
+
+  <section>
+    <h2>Research Interests</h2>
+    <p>The impact of technological change on labor market outcomes, income inequality, and long-run
+    economic growth; skill demand and the task content of work measured from text; synchronization of
+    business cycles within a monetary union.</p>
+  </section>
+
+  <section>
+    <h2>Academic Appointment</h2>
+    <div class="row">
+      <div class="when">2024 – present</div>
+      <div class="what">
+        <div class="title">Assistant Professor</div>
+        <div class="sub">Department of Economic Policy, Faculty of Economics and Finance,<br />Bratislava University of Economics and Business</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="row">
+      <div class="when">2021 – 2024</div>
+      <div class="what">
+        <div class="title">Ph.D. in Economics, <span style="font-weight:400; font-style:italic">cum laude</span></div>
+        <div class="sub">Bratislava University of Economics and Business</div>
+        <div class="note">Thesis: Implications of Technology on Wages, Factor Shares, and Inequalities among Demographic Groups in the European Labor Market</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2019 – 2021</div>
+      <div class="what">
+        <div class="title">Master's Degree in Economic Policy, <span style="font-weight:400; font-style:italic">cum laude</span></div>
+        <div class="sub">Bratislava University of Economics and Business</div>
+        <div class="note">Thesis: Differences in the Development of European Regions</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publications in Peer-Reviewed Journals</h2>
+    <ol class="pubs">
+      <li>
+        <span class="title">In-demand skills: a shield against automation — evidence from online job vacancies.</span>
+        <span class="cite">Oleš, T. (2026). <em>Journal for Labour Market Research</em>, 60(1), 5.</span>
+      </li>
+      <li>
+        <span class="title">Impact of robots and artificial intelligence on labor and skill demand: evidence from the UK.</span>
+        <span class="cite">Lábaj, M., Oleš, T., &amp; Procházka, G. (2025). <em>Eurasian Business Review</em>, 15(4), 953–1001.</span>
+      </li>
+      <li>
+        <span class="title">Impact of cohesion funds on convergence club's economic growth.</span>
+        <span class="cite">Oleš, T., &amp; Hudcovský, M. (2024). <em>Growth and Change</em>, 55(4), e12739.</span>
+      </li>
+      <li>
+        <span class="title">Superstar firms and labor share decline: the role of digitalization in France, Germany, Italy, and Spain.</span>
+        <span class="cite">Oleš, T. (2024). <em>Ekonomický časopis</em>, 72(9–10), 419–439.</span>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Work in Progress</h2>
+    <div class="row">
+      <div class="when">Under review</div>
+      <div class="what">
+        <div class="title">Impact of Automation and Augmentation Technologies on Employment in Europe</div>
+        <div class="sub">with Martin Lábaj</div>
+        <div class="sub"><span class="status">Revise and resubmit</span>, <em>Labour Economics</em>.</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">Draft</div>
+      <div class="what">
+        <div class="title">The Labor Market Effects of AI Automation and Augmentation</div>
+        <div class="sub">with Francesco Roncone</div>
+        <div class="sub"><span class="status">First draft</span>.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Participation in Research Projects</h2>
+    <div class="row">
+      <div class="when">2026</div>
+      <div class="what">
+        <div class="title">Expertise Divergences in Europe? Learning from the US Labor Market</div>
+        <div class="sub">MIT Seed Funds Slovakia — led by David Autor (MIT, Economics), with M. Lábaj, F. Roncone and L. Širochmanová</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2024</div>
+      <div class="what">
+        <div class="title">Towards a Shared Prosperity: Technology, Inequality, and Labor Market</div>
+        <div class="sub">Slovak Research and Development Agency (APVV) — led by Martin Lábaj</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2024</div>
+      <div class="what">
+        <div class="title">Stagnant Wages in the Face of Rising Labour Productivity: The Role of Automation Technologies</div>
+        <div class="sub">Recovery and Resilience Plan of the Slovak Republic — led by Klaus Prettner</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2024</div>
+      <div class="what">
+        <div class="title">Applying Machine Learning Methods to Support Labour Market Policy Making</div>
+        <div class="sub">Slovak Research and Development Agency (APVV) — led by Miroslav Štefaník</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2023</div>
+      <div class="what">
+        <div class="title">Enhancing Cutting-edge Research Collaboration between MIT and EUBA in the Field of Automation</div>
+        <div class="sub">National Bank of Slovakia — led by Martin Lábaj</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2022</div>
+      <div class="what">
+        <div class="title">Labor Market Implications of Automation in the United States and the EU</div>
+        <div class="sub">MIT Seed Funds Slovakia — led by Daron Acemoglu and Martin Lábaj</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2022</div>
+      <div class="what">
+        <div class="title">Industrial Policy under the Conditions of Deindustrialization and Automation</div>
+        <div class="sub">Scientific Grant Agency (VEGA) — led by Erika Majzlíková</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Awards and Honours</h2>
+    <div class="row">
+      <div class="when">2024</div>
+      <div class="what">
+        <div class="title">Governor's Prize of the National Bank of Slovakia</div>
+        <div class="sub">For the best dissertation thesis of the year</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">2021</div>
+      <div class="what">
+        <div class="title">Governor's Prize of the National Bank of Slovakia</div>
+        <div class="sub">For the best diploma thesis of the year</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Teaching</h2>
+    <div class="row">
+      <div class="when">since 2021</div>
+      <div class="what">
+        <div class="title">Bratislava University of Economics and Business</div>
+        <ul>
+          <li>Undergraduate: Microeconomics, Macroeconomics, Data Analysis</li>
+          <li>Graduate: Macroeconomics, Applied Data Analysis</li>
+          <li>Supervision of theses in empirical labor economics, growth and econometrics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Professional Membership</h2>
+    <div class="row">
+      <div class="when">since 2022</div>
+      <div class="what"><div class="title">Slovak Economic Association</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="facts">
+      <div class="row">
+        <div class="when">Software</div>
+        <div class="what"><div class="sub">R, Stata, Python, MATLAB, SQL, LaTeX</div></div>
+      </div>
+      <div class="row">
+        <div class="when">Methods</div>
+        <div class="what"><div class="sub">Applied micro-econometrics, causal inference, natural language processing and sentence embeddings, growth accounting</div></div>
+      </div>
+      <div class="row">
+        <div class="when">Languages</div>
+        <div class="what"><div class="sub">Slovak (native), English (fluent), French (basic)</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Personal</h2>
+    <p>Studies technology–skill substitution by day, but practices task complementarities with 50,000
+    co-workers by night (a.k.a. bees). Also cycling, reading and travelling.</p>
+  </section>
+
+  <div class="signoff">
+    <span class="date">Bratislava, 18 September 2026</span>
+    <img src="signature.png" alt="Signature of Tomáš Oleš" />
+  </div>
+
+</main>
+
+<p class="footnote">Last updated 18 September 2026.</p>
+
+</body>
+</html>

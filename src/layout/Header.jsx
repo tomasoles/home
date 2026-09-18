@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Navbar } from "flowbite-react";
+import { cvPageUrl } from "../constants";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("#hello");
@@ -35,11 +36,12 @@ const Header = () => {
           _selected publications
         </Navbar.Link>
         <Navbar.Link
-          href="#talks"
-          className={`${activeLink === "#talks" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
-          onClick={() => handleLinkClick("#talks")}
+          href={cvPageUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white"
         >
-          _talks
+          _cv
         </Navbar.Link>
         <Navbar.Link
           href="#contact"

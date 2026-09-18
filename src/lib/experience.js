@@ -16,7 +16,7 @@ export const EXPERIENCE = [
   {
     logo: wiproLogo,
     profession: "Assistant Professor",
-    company: "Faculty of Economics and Finance, University of Economics in Bratislava, Slovakia",
+    company: "Faculty of Economics and Finance, Bratislava University of Economics and Business, Slovakia",
     date: "September 2024 - Present",
     url: "https://nhf.euba.sk/katedry/katedra-hospodarskej-politiky/clenovia-katedry/oles-tomas",
     description: [

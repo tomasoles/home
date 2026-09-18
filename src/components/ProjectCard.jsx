@@ -31,9 +31,10 @@ const ProjectCard = ({
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="self-start p-1.5 rounded-lg gap-1 after:content-['_↗'] text-black flex hover:text-sky-500"
+            className="self-start flex items-center gap-2 rounded-full border border-secondary px-4 py-2 text-sm text-secondary after:content-['_↗'] hover:bg-secondary hover:text-white"
           >
-            <FaRegFilePdf className="h-6 w-6 text-black hover:text-sky-500" />
+            <FaRegFilePdf className="h-5 w-5" />
+            Read in the journal
           </a>
         )}
       </div>
