@@ -36,6 +36,13 @@ const Header = () => {
           _selected publications
         </Navbar.Link>
         <Navbar.Link
+          href="#work_in_progress"
+          className={`${activeLink === "#work_in_progress" ? "border-b-2 border-white" : ""} text-white hover:text-white hover:bg-transparent hover:border-b-2 hover:border-white`}
+          onClick={() => handleLinkClick("#work_in_progress")}
+        >
+          _work in progress
+        </Navbar.Link>
+        <Navbar.Link
           href={cvPageUrl}
           target="_blank"
           rel="noopener noreferrer"
