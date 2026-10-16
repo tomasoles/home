@@ -29,7 +29,7 @@ export const WORKING_PAPERS = [
     authors: "",
     description:
       "Generative AI performs many of the tasks of entry-level jobs. I ask whether it removes entry-level jobs in Europe, with 246 million online job ads posted in 28 European countries between 2020 and 2025 and with automation exposure measured by matching breakthrough patents to the tasks of four-digit occupations. I compare occupations in the top fifth and in the bottom fifth of automation exposure to natural language processing, within countries, before and after the release of ChatGPT. In the top fifth, entry-level ads fell by 24 log points relative to the bottom fifth, and senior ads fell by 20 log points, so the entry-level share did not fall. What changed is what entry-level jobs require. Per standard deviation of automation exposure, the share of entry-level ads that require language, digital, analytical, social, interpersonal, and people-management skills fell by 1.0 to 1.4 percentage points, while manual skill requirements did not change. The declines appeared in 2024 and grew in 2025, and analytical and people-management skill requirements fell more in entry-level ads than in senior ads. Exposure to industrial robots predicts none of the changes in skill requirements.",
-    url: `${process.env.PUBLIC_URL}/papers/first-rung/`,
+    url: `${process.env.PUBLIC_URL}/papers/Oles_First_Rung_2026.pdf`,
     linkLabel: "Read the working paper",
     previewImage: firstRungFig,
     technologies: ["Working paper", "October 2026"],
