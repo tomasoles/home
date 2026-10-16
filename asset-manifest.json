@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/home/static/css/main.4eaabc95.css",
-    "main.js": "/home/static/js/main.2b129388.js",
+    "main.js": "/home/static/js/main.223a7072.js",
     "static/js/453.4f97e6c8.chunk.js": "/home/static/js/453.4f97e6c8.chunk.js",
     "static/media/profile.webp": "/home/static/media/profile.aee85a323b9418a8be6b.webp",
     "static/media/exposure_skills_with_controls.jpg": "/home/static/media/exposure_skills_with_controls.a0f5f1518fc0da4b0e86.jpg",
     "static/media/ai_exposure_ind_occ_page-0001.jpg": "/home/static/media/ai_exposure_ind_occ_page-0001.21bae9ba5992b8972002.jpg",
     "static/media/superstar.jpg": "/home/static/media/superstar.1676791233626013bb57.jpg",
+    "static/media/first_rung_entry_level.jpg": "/home/static/media/first_rung_entry_level.434810625fe2fd25cbc8.jpg",
     "static/media/ai_automation_augmentation.jpg": "/home/static/media/ai_automation_augmentation.75d04b8af3188557042d.jpg",
     "static/media/clubs.png": "/home/static/media/clubs.51e413de167d85ed67d8.png",
-    "static/media/first_rung_entry_level.jpg": "/home/static/media/first_rung_entry_level.3a88684dc880304fa255.jpg",
     "static/media/NHF-clean-white.png": "/home/static/media/NHF-clean-white.dda0b156afe656a9d23c.png",
     "index.html": "/home/index.html",
     "main.4eaabc95.css.map": "/home/static/css/main.4eaabc95.css.map",
-    "main.2b129388.js.map": "/home/static/js/main.2b129388.js.map",
+    "main.223a7072.js.map": "/home/static/js/main.223a7072.js.map",
     "453.4f97e6c8.chunk.js.map": "/home/static/js/453.4f97e6c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4eaabc95.css",
-    "static/js/main.2b129388.js"
+    "static/js/main.223a7072.js"
   ]
 }
